@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    tools:context=".MainActivity"
+    android:background="#1B1A1B"
+    android:backgroundTintMode="add"
+    android:backgroundTint="#100B17"
+    android:padding="20dp"
+    >
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <CheckBox
+        android:id="@+id/sunday"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-smallcaps"
+        android:button="@android:drawable/radiobutton_on_background"
+        android:buttonTint="@color/red"
+        android:padding="15dp"
+        android:paddingStart="20dp"
+        android:text=" Every Sunday"
+        android:textColor="#FFFFFD"
+        android:textSize="17sp" />
+</LinearLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#3A3F40"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    <CheckBox
+        android:id="@+id/monday"
+        android:fontFamily="sans-serif-smallcaps"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:button="@android:drawable/radiobutton_on_background"
+        android:buttonTint="@color/red"
+        android:padding="15dp"
+        android:paddingStart="20dp"
+        android:text=" Every Monday"
+        android:textColor="#FFFFFD"
+        android:textSize="17sp" />
+    </LinearLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#3A3F40"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    <CheckBox
+        android:id="@+id/tuesday"
+        android:fontFamily="sans-serif-smallcaps"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:button="@android:drawable/radiobutton_on_background"
+        android:buttonTint="@color/red"
+        android:padding="15dp"
+        android:paddingStart="20dp"
+        android:text=" Every Tuesday"
+        android:textColor="#FFFFFD"
+        android:textSize="17sp" />
+    </LinearLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#3A3F40"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    <CheckBox
+        android:id="@+id/wednesday"
+        android:fontFamily="sans-serif-smallcaps"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:button="@android:drawable/radiobutton_on_background"
+        android:buttonTint="@color/red"
+        android:padding="15dp"
+        android:paddingStart="20dp"
+        android:text=" Every Wednesday"
+        android:textColor="#FFFFFD"
+        android:textSize="17sp" />
+    </LinearLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#3A3F40"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    <CheckBox
+        android:id="@+id/thursday"
+        android:fontFamily="sans-serif-smallcaps"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:button="@android:drawable/radiobutton_on_background"
+        android:buttonTint="@color/red"
+        android:padding="15dp"
+        android:paddingStart="20dp"
+        android:text=" Every Thursday"
+        android:textColor="#FFFFFD"
+        android:textSize="17sp" /></LinearLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#3A3F40"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    <CheckBox
+        android:id="@+id/friday"
+        android:fontFamily="sans-serif-smallcaps"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:button="@android:drawable/radiobutton_on_background"
+        android:buttonTint="@color/red"
+        android:padding="15dp"
+        android:paddingStart="20dp"
+        android:text=" Every Friday"
+        android:textColor="#FFFFFD"
+        android:textSize="17sp" /></LinearLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#3A3F40"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    <CheckBox
+        android:id="@+id/saturday"
+        android:fontFamily="sans-serif-smallcaps"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:button="@android:drawable/radiobutton_on_background"
+        android:buttonTint="@color/red"
+        android:padding="15dp"
+        android:paddingStart="20dp"
+        android:text=" Every Saturday"
+        android:textColor="#FFFFFD"
+        android:textSize="17sp" /></LinearLayout>
+
+</LinearLayout>

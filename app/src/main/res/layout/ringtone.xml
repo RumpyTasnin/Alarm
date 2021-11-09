@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    tools:context=".MainActivity"
+    android:background="#1B1A1B"
+    android:backgroundTintMode="add"
+    android:backgroundTint="#100B17"
+    android:padding="20dp"
+
+    >
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <RadioButton
+            android:id="@+id/intro"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:button="@android:drawable/radiobutton_on_background"
+            android:buttonTint="@color/red"
+            android:fontFamily="sans-serif-smallcaps"
+            android:padding="15dp"
+            android:paddingStart="20dp"
+            android:text="The XX-Intro"
+            android:textColor="#FFFFFD"
+            android:textSize="17sp" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#3A3F40"/>
+
+
+        <RadioButton
+            android:id="@+id/flute"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:button="@android:drawable/radiobutton_on_background"
+            android:buttonTint="@color/red"
+            android:padding="15dp"
+            android:paddingStart="20dp"
+            android:text="Flute "
+            android:textColor="#FFFFFD"
+            android:textSize="17sp"
+            android:fontFamily="sans-serif-smallcaps"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#3A3F40"/>
+
+        <RadioButton
+            android:id="@+id/banana"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:button="@android:drawable/radiobutton_on_background"
+            android:buttonTint="@color/red"
+            android:padding="15dp"
+            android:paddingStart="20dp"
+            android:text="Banana song"
+            android:textColor="#FFFFFD"
+            android:textSize="17sp"
+            android:fontFamily="sans-serif-smallcaps"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#3A3F40"/>
+
+        <RadioButton
+            android:id="@+id/wakeup1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:button="@android:drawable/radiobutton_on_background"
+            android:buttonTint="@color/red"
+            android:padding="15dp"
+            android:paddingStart="20dp"
+            android:text="Wake up!!!"
+            android:textColor="#FFFFFD"
+            android:textSize="17sp"
+            android:fontFamily="sans-serif-smallcaps"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#3A3F40"/>
+
+        <RadioButton
+            android:id="@+id/wakeup2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:button="@android:drawable/radiobutton_on_background"
+            android:buttonTint="@color/red"
+            android:padding="15dp"
+            android:paddingStart="20dp"
+            android:text="Wake me up"
+            android:textColor="#FFFFFD"
+            android:textSize="17sp"
+            android:fontFamily="sans-serif-smallcaps"/>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#3A3F40"/>
+
+        <RadioButton
+            android:id="@+id/minion"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:button="@android:drawable/radiobutton_on_background"
+            android:buttonTint="@color/red"
+            android:padding="15dp"
+            android:paddingStart="20dp"
+            android:text="Ring Ring!!!!"
+            android:textColor="#FFFFFD"
+            android:textSize="17sp"
+            android:fontFamily="sans-serif-smallcaps"/>
+    </RadioGroup>
+    </LinearLayout>
+
+

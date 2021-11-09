@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">"Alarm" </string>
+    <string name="repeat">Repeat</string>
+    <string name="sidetext">Never</string>
+    <string name="hint">Title</string>
+    <string-array name="ringtone">
+        <item >Cradles</item>
+        <item >Imperial March</item>
+        <item >Nuclear</item>
+        <item >The XX-Intro</item>
+        <item >Lion Sleep</item>
+        <item >Banana</item>
+        <item >Ring!! Ring!!</item>
+        <item >Thrones</item>
+        <item >Flute</item>
+        <item >Wake Up!!!</item>
+        <item >Wake me up</item>
+        <item >Corona</item>
+
+
+    </string-array>
+</resources>

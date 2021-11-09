@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="70dp"
+    android:orientation="horizontal"
+    android:gravity="center_vertical"
+    android:padding="10dp"
+    android:background="#0C0C0C"
+    android:backgroundTintMode="add"
+    android:backgroundTint="#2D1A40"
+    android:paddingStart="20dp"
+    android:weightSum="4"
+    >
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_weight="3.5">
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Alarm!!"
+        android:textColor="#DCD5DF"
+        android:textAppearance="@style/TextAppearance.Compat.Notification.Title"
+        android:paddingBottom="5dp"
+        />
+        <TextView
+            android:id="@+id/info"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="Alarm!!"
+            android:textColorHint="#757474"
+            android:textColor="#DCD5DF"
+            android:textAppearance="@style/TextAppearance.Compat.Notification.Info"
+            />
+    </LinearLayout>
+
+    <ImageView
+        android:layout_weight=".5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_baseline_alarm_24"/>
+
+</LinearLayout>
